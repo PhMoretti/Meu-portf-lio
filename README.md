@@ -3,9 +3,13 @@ Portfólio destinado àqueles que desejam adquirir contato profissional com minh
 
 Plataforma web projetada com:
 
--HTML 5
--CSS 3
+-HTML5
+
+-CSS3
+
 -JS
+
 -REACT
+
 
 Contato: morettipinsan@gmail.com
