@@ -7,3 +7,5 @@ Plataforma web projetada com:
 -CSS 3
 -JS
 -REACT
+
+Contato: morettipinsan@gmail.com
