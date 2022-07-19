@@ -1,17 +1,18 @@
 .sobre_cont {
     background-color: #1282A2;
     width: 100%;
-    height: 500px;
+    height: 900px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .sobre_titulo {
     height: 25%;
-    background-color: red;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     font-size: 24px;
+    flex-direction: column;
+    color: white;
 }
 
 .fora_bola {
@@ -22,7 +23,40 @@
 }
 
 .bola {
-    width: 10px;
-    height: 10px;
-    background-color: green;
+    width: 20px;
+    height: 20px;
+    background-color: black;
+    border-radius: 30px;
+    margin: 0 auto;
+    animation-name: scrollbola;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes scrollbola {
+    0% {transform: translateY(0px); opacity: 1;}
+    100% {transform: translateY(25px); opacity: 0;}
+}
+
+.sobre_json {
+    display: flex;
+    justify-content: center;
+}   
+
+.img_json {
+    border-radius: 7px;
+    width: 50%;
+}
+
+.sobre_texto {
+    width: 50%;
+    text-align: justify;
+    margin: 0 auto;
+    margin-top: 50px;
+    color: black;
+    font-size: 20px;
+}
+
+i {
+    color: white;   
 }
