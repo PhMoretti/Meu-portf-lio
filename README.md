@@ -9,7 +9,7 @@ Plataforma web projetada com:
 
 -JS
 
--REACT
+-REACT JS
 
 
 Contato: morettipinsan@gmail.com
