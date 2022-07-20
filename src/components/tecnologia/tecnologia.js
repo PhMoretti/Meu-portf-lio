@@ -1,7 +1,5 @@
 import React from 'react';
 import './tecnologia.css';
-import css from './css.png';
-import azure from './azure.png';
 
 const Tecnologia = (props) => {
     return(
