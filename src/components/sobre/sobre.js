@@ -1,5 +1,5 @@
 import './sobre.css'
-import React from "react";
+import React, { useEffect } from "react";
 import imgjs from './img/imgjs.png';
 import Tecnologia from '../tecnologia/tecnologia';
 import css from './img/css.png';
@@ -27,7 +27,7 @@ const Sobre = () => {
                         <img src={imgjs} className='img_json'></img>
                     </div>
                     <div className='sobre_texto'>
-                        <p>Olá! Meu nome é Pedro Henrique Moretti Pinsan de Oliveira Silva. Sou um programador em início de carreira e espero adquirir muitos conhecimentos ao longo de minha jornada. Para tal, por exemplo, desenvolvi este website utilizando <i>HTML</i>, <i>CSS</i>, <i>JS</i> e <i>REACT JS</i> para poder expor toda minha trajetória e tecnologias dominadas a quem seja necessário. Logo abaixo, seguem as tecnologias nas quais possuo conhecimento:</p>
+                        <p>Olá! Meu nome é Pedro Henrique Moretti Pinsan de Oliveira Silva. Sou um programador estudante (SPTech) em início de carreira e espero adquirir muitos conhecimentos ao longo de minha jornada. Para tal, por exemplo, desenvolvi este website utilizando <i>HTML</i>, <i>CSS</i>, <i>JS</i> e <i>REACT JS</i> para poder expor toda minha trajetória e tecnologias dominadas a quem seja necessário. Logo abaixo, seguem as tecnologias nas quais possuo conhecimento:</p>
                     </div>
                     <div className='fundo_tecnologia'>
                         <div className='tecnologia_flex'>

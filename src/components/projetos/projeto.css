@@ -1,0 +1,60 @@
+.projeto {
+    margin-top: 25px;
+    width: 100%;
+    background-color: rgb(0, 11, 75);
+    padding: 25px;
+    color: white;
+}
+
+.projeto_cont {
+    display: flex;  
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.projeto_titulo {
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 35px;
+}
+
+.projeto_subtitulo {
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-decoration: underline;
+}
+
+.projetobox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+}
+
+.img_projeto {
+    width: 400px;
+    padding: 25px;
+    border-radius: 20px;
+}
+
+.texto_projeto {
+    text-align: justify;
+    font-size: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+.loading_img {
+    animation-name: flutuar;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    width: 400px;
+}
+
+@keyframes flutuar {
+    0% {transform:translateY(10px);}
+    50% {transform: translateY(-10px);}
+    100% {transform: translateY(10px);}
+}
+
